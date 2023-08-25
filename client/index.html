@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tuto</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="/api/addUser" method="post">
+          <div class="input-container">
+            <label for="name">Nom</label>
+            <input type="text" name="nom" id="name" />
+          </div>
+          <div class="input-container">
+            <label for="prenom"> Prénom</label>
+            <input type="text" name="prenom" id="prenom" />
+          </div>
+          <input type="submit" value="Envoyer" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
